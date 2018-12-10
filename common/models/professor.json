@@ -1,0 +1,27 @@
+{
+  "name": "Professor",
+  "plural": "professores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
